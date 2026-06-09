@@ -22,7 +22,6 @@ class _ScreeningScreenState extends State<ScreeningScreen> {
 
   // --- ไปหน้าถัดไป ---
   void _nextPage() {
-    _pageController.nextPage(duration: const Duration(milliseconds: 400), curve: Curves.easeInOut);
   }
 
   // --- ย้อนกลับ ---
